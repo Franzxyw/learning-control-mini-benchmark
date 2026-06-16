@@ -7,7 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SRC = PROJECT_ROOT / "src"
 sys.path.insert(0, str(SRC))
 
-from alesco_benchmark import ActiveLearningAgent, BenchmarkRunner, LQRAgent, LinearSystemEnv, RandomAgent
+from learning_control_benchmark import ActiveLearningAgent, BenchmarkRunner, LQRAgent, LinearSystemEnv, RandomAgent
 
 
 def make_env() -> LinearSystemEnv:

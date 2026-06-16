@@ -40,11 +40,11 @@ regret[t] = cumulative_cost_agent[t] - cumulative_cost_lqr_reference[t]
 ## Project Structure
 
 ```text
-alesco-mini-benchmark/
+learning-control-mini-benchmark/
   README.md
   requirements.txt
   src/
-    alesco_benchmark/
+    learning_control_benchmark/
       agents.py
       environments.py
       evaluation.py
