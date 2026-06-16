@@ -1,8 +1,8 @@
-# ALeSCo Mini Benchmark
+# Learning Control Mini Benchmark
 
 A lightweight benchmark prototype for learning-based control on a linear dynamical system.
 
-This project was built as a small preparation project for student research work on benchmarking active learning algorithms for dynamical systems. It is intentionally compact and educational, not a complete research framework. The goal is to show the basic structure of such a benchmark:
+This project was built as a small personal preparation project for student research work on benchmarking learning algorithms for dynamical systems. It is intentionally compact and educational, not an official project or a complete research framework. The goal is to show the basic structure of such a benchmark:
 
 - simulation environment with a minimal `reset()` / `step()` API
 - agent interface for controllers and learning algorithms
